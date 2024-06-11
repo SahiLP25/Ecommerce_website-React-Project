@@ -1,0 +1,24 @@
+.slider{
+    width: 100vw;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.next{
+    position: absolute;
+    right: 0;
+    padding: 1.3rem 0.4rem;
+    margin-right:0.2rem ;
+
+}
+ .pre{
+    margin-left:0.2rem ;
+
+    padding: 1.3rem 0.4rem;
+position: absolute;
+left: 0;
+ }

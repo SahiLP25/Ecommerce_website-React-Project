@@ -1,0 +1,73 @@
+.nav{
+    width: 100vw;
+    height: 11vh;
+    background-color: #12141b;
+    /* background-color:#020D1F; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+    color: #FFFFFF;
+    z-index: 10;
+
+}
+
+
+
+.searchbox{
+    background-color: #F0F5FF;
+    border-radius: 0.6rem;
+    width: 40vw;
+    /* height: 7vh; */
+    gap: 0.7rem;
+    color: #535353;
+    font-weight: 100;
+    padding: 0.6rem 0.8rem;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+
+
+}
+.searchbox input{
+    background-color: #F0F5FF;
+
+    font-size: 1.1rem;
+    font-weight: 10;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.login,.cart,.seller{
+    
+    cursor: pointer;
+font-size: 1.2rem;
+
+}
+ 
+.nav .link{
+    
+color: rgb(255, 255, 255);
+letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1rem;
+    padding:0.5rem;
+    
+}
+.logo img{
+   width: 6.5vw;
+    height: 13vh;
+}
+
+.login:hover{
+border-radius: 0.5rem;
+padding: 0.1rem 0.3rem;
+    background-color: blue;
+    color: #FFFFFF;
+}
+
+.login a:hover{
+    background-color: blue;
+    color: #FFFFFF;
+}

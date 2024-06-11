@@ -1,0 +1,77 @@
+.display{
+    width: 100vw;
+    min-height: 89vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(30, 30, 30);
+}
+
+.display .imgcard{
+    width: 50vw;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.display .imgcard img{
+    border: 1px solid rgb(55, 55, 55);
+    background-color: rgb(30, 30, 30);
+    width: 30vw;
+}
+
+.display .descard{
+    display: flex;
+    padding: 2rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50vw;
+}
+hr{
+    width: 100%;
+}
+
+.destitle{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    width: 30vw;
+}
+.descat{
+    font-size: 0.9rem;
+    color: rgb(215, 215, 215);
+
+    text-transform: uppercase;
+}
+.desprice{
+    font-size: 1.7rem;
+    color: rgb(181, 255, 63);
+    text-transform: uppercase;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    border: 1px solid rgba(46, 139, 86, 0.286);
+}
+
+.desbrand{
+    font-size: 1rem;
+    color: rgb(94, 196, 255);
+    text-transform: uppercase;
+}
+.desrating{
+    font-size: 1.2rem;
+    color: rgb(255, 207, 192);
+    text-transform: uppercase;
+}
+
+.desdiscount{
+    font-size: 1.3rem;
+    color: rgb(244, 108, 212);
+    text-transform: uppercase;
+}
+
+.desdec{
+    font-size: 1rem;
+}
