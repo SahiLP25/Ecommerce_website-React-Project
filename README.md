@@ -9,8 +9,6 @@ A fully functional e-commerce website built using React, React Router, Context A
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
@@ -31,19 +29,17 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/SahiLP25/react-ecommerce-site.git
+    git clone https://github.com/SahiLP25/ecommerce-react-js
     ```
 2. **Navigate to the project directory:**
-    ```bash
-    cd react-ecommerce-site
-    ```
+    
 3. **Install dependencies:**
     ```bash
     npm install
     ```
 4. **Start the development server:**
     ```bash
-    npm start
+    npm run dev
     ```
 
 The application will open in your default browser at `http://localhost:3000`.
